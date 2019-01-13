@@ -20,16 +20,13 @@ def mode():
     k = 0
     count = 0
     for i in points:
-        print(k)
         if k * 0.05 < (i[0]*1000 - 50) / 1000:
-            print(count)
             try:
                 if count > mode[0]:
                     mode3 = mode2
                     mode2 = mode1
                     mode1 = count
                     mode = [count, round((k*0.05 + 0.05*((mode2 - mode3)/((mode2 - mode3)+(mode2 - mode1))))*1000)/1000]
-                    print(mode)
                 elif count == mode[0]:
                     mode3 = mode2
                     mode2 = mode1
