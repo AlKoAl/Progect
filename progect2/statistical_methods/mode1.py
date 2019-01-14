@@ -29,7 +29,7 @@ def mode():
             count += i[1]
         else:
             count += i[1]
-    mode[0] = mode[0]*100/length
+    mode[0] = round(mode[0]*1000/length)/10
     return mode
 
 
