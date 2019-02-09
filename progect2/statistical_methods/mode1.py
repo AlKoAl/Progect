@@ -22,7 +22,7 @@ def mode():
                 if count > mode[0]:
                     mode = [count, (k * 50 + 25) / 1000]
             except IndexError:
-                mode = [count, (k * 5 + 25) / 100]
+                mode = [count, (k * 5 + 25) / 1000]
             count = 0
             while k * 0.05 < (i[0]*1000 - 50) / 1000:
                 k += 1
