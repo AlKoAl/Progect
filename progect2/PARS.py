@@ -202,7 +202,11 @@ def norm(spectrum):
     return [round(VLF(spectrum)/TP(spectrum)*1000) / 10, round(LF(spectrum)/TP(spectrum)*1000) / 10,
            round(HF(spectrum)/TP(spectrum)*1000) / 10]
 
-
+# УМРИ
+# ПОЖАЛУЙСТА
+# ГЛУПОЕ
+# ЧУДОВИЩЕ
+# всё ниже абсолютно неправильно
 def PARS():
 
     def N1(x):
